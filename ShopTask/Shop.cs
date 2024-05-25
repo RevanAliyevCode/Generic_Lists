@@ -36,7 +36,7 @@ namespace CustomListTask
                     else
                         coffee.RemoveCoffe(count);
 
-                    TotalIncome += coffee.Count * coffee.Price;
+                    TotalIncome += count * coffee.Price;
                 }
                 else Console.WriteLine($"You can not get more {coffee.Count}");
             }
@@ -66,7 +66,7 @@ namespace CustomListTask
                     else
                         tea.RemoveTea(count);
 
-                    TotalIncome += tea.Count * tea.Price;
+                    TotalIncome += count * tea.Price;
 
                 }
                 else Console.WriteLine($"You can not get more {tea.Count}");
